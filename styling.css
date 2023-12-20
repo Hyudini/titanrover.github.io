@@ -1,4 +1,10 @@
 /* Reset default margin and padding */
+
+.padded {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -65,6 +71,9 @@ body {
   }
   
   footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #333;
     color: white;
     text-align: center;
